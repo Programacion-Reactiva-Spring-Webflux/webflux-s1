@@ -1,0 +1,25 @@
+{
+	"info": {
+		"_postman_id": "adb70223-5c85-42bd-a0a2-fd03bf4b7d26",
+		"name": "Bootcamp2022",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GetAll",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
