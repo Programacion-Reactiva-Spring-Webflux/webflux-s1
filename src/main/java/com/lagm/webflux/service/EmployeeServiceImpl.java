@@ -3,9 +3,11 @@ package com.lagm.webflux.service;
 import com.lagm.webflux.modelo.Employee;
 import com.lagm.webflux.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
+@Service
 public class EmployeeServiceImpl implements EmployeeService {
     @Autowired
     private EmployeeRepository employeeRepository;
